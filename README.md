@@ -1,6 +1,6 @@
 # Thomas Chang
 
-AI Automation Engineer at [Avenue Z](https://avenuez.com) — I build the agent and automation layer for a full-service digital marketing agency. Everything listed here ships to production and runs on real clients.
+AI Automation Engineer at [Avenue Z](https://avenuez.com). I build the agent and automation layer for a full-service digital marketing agency. Everything listed here ships to production and runs on real clients.
 
 ---
 
