@@ -6,15 +6,15 @@ AI Automation Engineer at [Avenue Z](https://avenuez.com). I build the agent and
 
 ## Agents & Automation Pipelines
 
-**[PR Newsjacking Pipeline](https://github.com/Avenue-Z/pr-newsjacking)** `private`  
+**[PR Newsjacking Pipeline](https://github.com/Avenue-Z/pr-newsjacking)** `private` · **[public version](https://github.com/thomaschang-avez/pr-newsjacking-agent)**  
 4 sequential CrewAI agents running across 26 PR clients. Monitors 77 Muck Rack Slack channels, scores articles against client pitchbooks (1–10), matches Tier 1 reporters, drafts personalized 4-paragraph pitch emails, creates Google Docs, posts daily Slack summaries. All inference routes through Glean Chat API — client data never leaves the enterprise environment. Runs M–F 7am automatically.  
 `Python` `CrewAI` `Glean Chat API` `Slack API` `Google Drive API` `Google Sheets`
 
-**[Media Brief Builder](https://github.com/Avenue-Z/media-brief)** `private`  
+**[Media Brief Builder](https://github.com/Avenue-Z/media-brief)** `private` · **[public version](https://github.com/thomaschang-avez/media-brief-builder)**  
 Flask webhook that accepts a Google Form submission, returns `202` immediately, and runs a CrewAI pipeline in the background. Gathers reporter and outlet data from Glean enterprise search, builds a correctly-formatted brief (5 types: Interview, Intro, In-Person, Broadcast, Podcast — reverse-engineered from real Avenue Z briefs), delivers via Slack DM to the submitter. Deployed on Railway, auto-deploys on merge to main.  
 `Python` `Flask` `CrewAI` `Glean API` `Slack API` `Railway`
 
-**[Automation Intake Agent](https://github.com/Avenue-Z/automation-intake-agent)** `private`  
+**[Automation Intake Agent](https://github.com/Avenue-Z/automation-intake-agent)** `private` · **[public version](https://github.com/thomaschang-avez/automation-intake-agent)**  
 Glean conversational agent that parses natural-language automation requests from employees and creates structured Asana tasks with correct custom fields. Gemini-powered NLP.  
 `Python` `Gemini / VertexAI` `Asana API` `Glean`
 
