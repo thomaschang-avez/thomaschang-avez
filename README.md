@@ -47,8 +47,8 @@ Five custom connectors syncing external tools into Avenue Z's Glean enterprise s
 | Pipeline | What it does | Trigger |
 |----------|--------------|---------|
 | **[Bing Webmaster → Glean](https://github.com/Avenue-Z/bing-glean-sync)** | Pulls SEO stats + top queries for all verified sites, indexes into Glean | Daily — GitHub Actions |
-| **[Sitebulb ZOS](https://github.com/Avenue-Z/avenue-z-sitebulb-zos)** | Parses Sitebulb audit exports for 20 clients, diffs vs. previous run, Slack alert + Glean index | Monthly |
-| **[Screaming Frog ZOS](https://github.com/Avenue-Z/avenue-z-screaming-frog-zos)** | Maps SF CSV exports to 48 X-Point Framework checks, diffs new/resolved issues, alerts and indexes | Manual / scheduled |
+| **[Sitebulb ZOS](https://github.com/Avenue-Z/avenue-z-sitebulb-zos)** · **[public](https://github.com/thomaschang-avez/sitebulb-glean-connector)** | Parses Sitebulb audit exports for 20 clients, diffs vs. previous run, Slack alert + Glean index | Monthly |
+| **[Screaming Frog ZOS](https://github.com/Avenue-Z/avenue-z-screaming-frog-zos)** · **[public](https://github.com/thomaschang-avez/screaming-frog-glean-connector)** | Maps SF CSV exports to 48 X-Point Framework checks, diffs new/resolved issues, alerts and indexes | Manual / scheduled |
 | **[Dash Social → Glean](https://github.com/Avenue-Z/dash-social-connection)** | Syncs Dash Social data into a Glean custom datasource | Scheduled |
 | **[Peec AI Worker](https://github.com/Avenue-Z/glean-peec-worker)** | Cloudflare Worker — syncs Peec AI Projects, Prompts, Chats, and Brand Reports into Glean | Daily |
 
