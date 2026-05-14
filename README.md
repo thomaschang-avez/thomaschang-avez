@@ -101,3 +101,7 @@ GEO-first SEO skill for Claude Code. Optimizes websites for AI-powered search en
 
 Avenue Z org: [github.com/Avenue-Z](https://github.com/Avenue-Z) — 25 repos, 107+ commits  
 Email: thomas.chang@avenuez.com
+
+---
+
+*Most of my commit history lives in the [Avenue Z org](https://github.com/Avenue-Z) (private repos). The public repos pinned above are sanitized mirrors of production code running on real clients.*
